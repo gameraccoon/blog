@@ -12,7 +12,7 @@ enableRobotsTXT = true
 [params]
   description = "Pavel Grebnev CV and blog"
 
-  favicon = "images/favicon.png"
+  favicon = "favicon.png"
 
   # These "images" are used for the structured data templates. This will show up, when
   # services like Twitter or Slack want to generate a preview of a link to your site.
