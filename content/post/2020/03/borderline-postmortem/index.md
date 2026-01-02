@@ -17,6 +17,8 @@ We live in different cities (and countries) but sometimes collaborate online to 
 
 The topic of the jam this time was **Asymmetrical Gameplay**. At the start of the jam the theme was revealed: **Two Alternate Dimensions**.
 
+{{< toc >}}
+
 ## Preparations
 
 Before the jam, we mainly did two things:
