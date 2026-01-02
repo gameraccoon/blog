@@ -1,0 +1,5 @@
+{{- with .Get "value" }}
+  <div style="text-align: {{ ($.Get "value") }}">
+{{- else }}
+  {{- errorf "The %q shortcode requires a 'value' argument: see %s" .Name .Position }}
+{{- end -}}
