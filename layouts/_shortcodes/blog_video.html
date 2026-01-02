@@ -1,4 +1,5 @@
 {{- with .Get "src" }}
+  <figure>
   {{- $controls := "" -}}
   {{- if eq ($.Get "controls") "yes" -}}
     {{- $controls = "controls" -}}
@@ -9,6 +10,11 @@
     {{- $loop = "loop" -}}
   {{- end -}}
   <video src="{{ ($.Get "src") }}" {{ $controls }} {{ $loop }} width="{{ ($.Get "width") }}"></video>
+
+  {{- with $.Get "caption" }}
+    <figcaption>{{ $.Get "caption" }}</figcaption>
+  {{- end -}}
+  </figure>
 {{- else }}
   {{- errorf "The %q shortcode requires a 'src' argument: see %s" .Name .Position }}
 {{- end -}}

@@ -30,11 +30,11 @@ As for the game ideas, we discussed roughly twelve: time managers, multiplayer s
 
 As for preparation, before we knew Egor was joining us (so we weren't sure there'd be someone who could model and animate), I was investigating Blender and the animation pipeline for Blender => UE4.
 
-{{< video src=200201_1959.mp4 controls=yes loop=yes >}}
+{{< blog_video src=200201_1959.mp4 controls=yes loop=yes >}}
 
 We were also investigating how to make a local multiplayer with the shared camera, and how to reassign controls on the fly (so the players can choose whether they want to use two gamepads, a keyboard and a gamepad, or play on a single keyboard together).
 
-{{< video src=200229_1452.mp4 controls=yes width=600 >}}
+{{< blog_video src=200229_1452.mp4 controls=yes width=600 >}}
 
 ## Theme reveal and jam start
 
@@ -57,7 +57,7 @@ We used Discord as a communication tool, git as the collaboration tool for progr
 
 At the start of the first day, we made the mirror and base enemies that moved towards the player.
 
-{{< video src=200215_1340.mp4 controls=yes width=600 >}}
+{{< blog_video src=200215_1340.mp4 controls=yes width=600 >}}
 
 ### Reflection-dependent materials
 
@@ -76,7 +76,7 @@ The first two days (Saturday and Sunday) we worked from early morning to late ev
 * Test level to be able to test all the mechanics of the game together
 * Menu
 
-{{< image_maximize path=200229_173609_AsymmetricalJam_Game_Preview_Standalone_64-bitPC.png width=600 >}}
+{{< blog_image path=200229_173609_AsymmetricalJam_Game_Preview_Standalone_64-bitPC.png width=600 >}}
 
 For the next four days, Egor was making all the models and the animations and we were gradually getting rid of default content, and finally replaced all models, anim-blueprints and other default classes with our implementations.
 
@@ -97,14 +97,11 @@ In the end, we decided to keep this feature.
 
 Another interesting part of the gun is that Egor made 6 different animations for each shot, so the drum (that has non-symmetrical textures) was always in the correct position, plus the animations of the revolver movement were a bit different. We also had 6 sockets where the correct amount of rounds was placed. With all that together, if you load 5 rounds, you'll see how these rounds are being shot and rotated exactly as you would see it with a real revolver.
 
-{{< figure_start >}}
-{{< video src=200229_2013.mp4 controls=yes loop=yes width=500 >}}
-{{< figure_caption text="You can note a cross on the drum during the first shot" >}}
-{{< figure_end >}}
+{{< blog_video src=200229_2013.mp4 controls=yes loop=yes width=500 caption="You can note a cross on the drum during the first shot" >}}
 
 Here's the view of the animation state machine that resolved all the shooting and rollback transitions between states (it also automatically resolves the reloading and some corner animation desynchronization cases).
 
-{{< image_maximize path=200229_182203_GunAnimInstance.png width=600 >}}
+{{< blog_image path=200229_182203_GunAnimInstance.png width=600 >}}
 
 ### Sound and music
 
@@ -112,14 +109,11 @@ From Bernard:
 
 > In the sound process, I started composing the ambience, which is made of sounds and randomized musical elements like chords in different octaves and short melodies. Then for the sound effects, all of them were edited, equalized and processed in Ableton Live (Digital audio workstation) and after they were done, everything went to Fmod (middleware). In Fmod the sound events were configured to sound as they’re sounding in-game, with looping, randomness and other behaviors that videogames media demands. The final stage was inside Unreal. After the programmers set the events in the game scenario, I was able to connect Fmod to Unreal in real-time, allowing me to make the fine adjustments. Plus: for the Ending Theme I tried to keep the mood close to the in-game ambience.
 
-{{< image_maximize path=asym-sound1.png width=600 >}}
-> On the left side of the picture, there are all the sound events in the game
+{{< blog_image path=asym-sound1.png width=600 caption="On the left side of the picture, there are all the sound events in the game" >}}
 
-{{< image_maximize path=asym-sound2.png width=600 >}}
-> This one has the mix groups with the VCAs that later became Music volume and SFX volume in options
+{{< blog_image path=asym-sound2.png width=600 caption="This one has the mix groups with the VCAs that later became Music volume and SFX volume in options" >}}
 
-{{< image_maximize path=asym-sound3.png width=600 >}}
-> A print of Ableton Live
+{{< blog_image path=asym-sound3.png width=600 caption="A print of Ableton Live" >}}
 
 ### Lighting performance issue
 
@@ -142,8 +136,8 @@ One thing that definitely felt good: the game had the desired atmosphere.
 
 (videos with sound)
 
-{{< video src=vod-555701234-offset-1108-convert-video-online.com_.mp4 controls=yes width=600 >}}
-{{< video src=Ispygavcb.mp4 controls=yes width=600 >}}
+{{< blog_video src=vod-555701234-offset-1108-convert-video-online.com_.mp4 controls=yes width=600 >}}
+{{< blog_video src=Ispygavcb.mp4 controls=yes width=600 >}}
 
 ## Things that went good
 
@@ -178,10 +172,10 @@ For each point above
 
 We had a door prop with animation that we decided not to use because it was added on the latest stages, had unresolved issues (how the door animation should react if there's something on the way), and because of the risks of interfering with the AI.
 
-{{< video src=200229_1940.mp4 controls=yes width=600 >}}
+{{< blog_video src=200229_1940.mp4 controls=yes width=600 >}}
 
 The zombie character was modeled more realistically, but we decided that it was risky and **cut it**.
 
-{{< video src=200229_2000.mp4 controls=yes width=600 >}}
+{{< blog_video src=200229_2000.mp4 controls=yes >}}
 
 Link to the game: [https://igorsgames.itch.io/borderline](https://igorsgames.itch.io/borderline)
