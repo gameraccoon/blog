@@ -6,7 +6,7 @@ menus = 'main'
 weight = 20
 +++
 
-## Projects
+# Projects
 
 {{< project_preview name="ARC Raiders" preview_image=arc-raiders-key-art.jpg years="(2024-now)" badge="-full--time_job-green" >}}
 

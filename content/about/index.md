@@ -6,7 +6,7 @@ menus = 'main'
 weight = 10
 +++
 
-## About me
+# About me
 
 {{< text_align_start value=center >}}
 

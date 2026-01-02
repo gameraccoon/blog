@@ -17,7 +17,7 @@ We live in different cities (and countries) but sometimes collaborate online to 
 
 The topic of the jam this time was **Asymmetrical Gameplay**. At the start of the jam the theme was revealed: **Two Alternate Dimensions**.
 
-#### Preparations
+## Preparations
 
 Before the jam, we mainly did two things:
 
@@ -36,7 +36,7 @@ We were also investigating how to make a local multiplayer with the shared camer
 
 {{< video src=200229_1452.mp4 controls=yes width=600 >}}
 
-#### Theme reveal and jam start
+## Theme reveal and jam start
 
 After the theme of the jam was revealed and the jam started, we made a pause for an hour so everyone could think about their own ideas. Then after the pause, we gathered together in a conference call, presented our ideas, listed them all (8 ideas in total), and voted for the best idea.
 
@@ -44,7 +44,7 @@ The idea that won our votes was a first-person horror game about a man trapped i
 
 It was already night for most of us, so we decided to have a good sleep before starting productive work in the morning.
 
-### Development process
+## Development process
 
 We chose the UE4 FPS template as a starting point and split the game into domains:
 
@@ -59,13 +59,13 @@ At the start of the first day, we made the mirror and base enemies that moved to
 
 {{< video src=200215_1340.mp4 controls=yes width=600 >}}
 
-#### Reflection-dependent materials
+### Reflection-dependent materials
 
 The interesting part was to make objects to be visualized differently in the world and in the mirror. To achieve that, each frame we saved the position of the player camera, in the object materials we added calls to a special material function that compared the saved camera position with the camera position that this object is being rendered from. If they match, it means we're rendering from the player's perspective, otherwise, it's the mirror reflection perspective. We used this info to set different material parameters for each case.
 
 ![](VirtualMirrorCamera_inverted.png)
 
-#### First days results
+### First days results
 
 The first two days (Saturday and Sunday) we worked from early morning to late evening. During these two days, we made the main gameplay elements:
 
@@ -83,12 +83,12 @@ For the next four days, Egor was making all the models and the animations and we
 At the same time, we were polishing the gameplay, improving the AI, and adding new sounds to the game.
 
 
-#### Using explicit render to texture for the mirror
+### Using explicit render to texture for the mirror
 
 One concern we had these days was the bad quality of the reflection and no control over it. From the beginning, we used planar reflection capture which is an easy way to make planar reflections because it handles all the math for the developer. Although it is very good in some cases, for us it turned out to be not a very handy tool. After all, we decided to use explicit render to texture with our own calculations underneath. That improved the reflection quality dramatically.
 
 
-#### Revolver mechanics
+### Revolver mechanics
 
 The second big concern was gun handling. We had two opinions on this:
 On one side we wanted to give the feeling of cocking the hammer of a revolver by the thumb (somewhat like R8 double-action revolver from CS:GO).
@@ -106,7 +106,7 @@ Here's the view of the animation state machine that resolved all the shooting an
 
 {{< image_maximize path=200229_182203_GunAnimInstance.png width=600 >}}
 
-#### Sound and music
+### Sound and music
 
 From Bernard:
 
@@ -121,20 +121,20 @@ From Bernard:
 {{< image_maximize path=asym-sound3.png width=600 >}}
 > A print of Ableton Live
 
-#### Lighting performance issue
+### Lighting performance issue
 
 On the last day, we were able to play the final version of the level. We found out that the game was having very low FPS on some of our PCs. After a short investigation, we found out that the problem was in the lighting. Not having enough time to fix it properly we decided to remove the lights from the level and add a flashlight to the player.
 
 There are two flashlights that were added: one in the direction of the player's camera view, and another in the direction of the reflection RTT camera (so the player could see something in the mirror). We made the second flashlight stronger to motivate the player to use the mirror to see longer distances.
 
 
-#### Final steps
+### Final steps
 
 AI was changed a lot on the last day after testing on the final map. Enemies become faster making it harder for the player to just run through the level.
 
 Before the submission deadline, while Igor was adding enemies to the level, Egor and I were polishing materials, effects, and menus.
 
-### The results
+## The results
 
 After the game submission, we sent the link to our friends and colleagues to see their reactions and comments to the game. Some of them recorded their plays, which was a very helpful way to see how they reacted to the game mechanics and also to notice some bugs that hadn't been discovered before.
 
@@ -145,7 +145,7 @@ One thing that definitely felt good: the game had the desired atmosphere.
 {{< video src=vod-555701234-offset-1108-convert-video-online.com_.mp4 controls=yes width=600 >}}
 {{< video src=Ispygavcb.mp4 controls=yes width=600 >}}
 
-### Things that went good
+## Things that went good
 
 * We made it to the deadline :)
 * We implemented the majority of the features that were planned
@@ -154,7 +154,7 @@ One thing that definitely felt good: the game had the desired atmosphere.
 * The main mechanics and AI work well (at least most of the time)
 * Settings were very useful for streamers: inverse Y-axis, mouse sensitivity, sound volume, and music volume
 
-### Things that went bad
+## Things that went bad
 
 * One of the themes of the jam was not covered enough (asymmetrical gameplay)
 * It's not clear for the players, without pointing it out to them explicitly, that they need to use the mirror
@@ -163,7 +163,7 @@ One thing that definitely felt good: the game had the desired atmosphere.
 * Game performance is still bad on some machines
 * The reloading interruption feature is being triggered accidentally all the time and is never used as intended
 
-### What could have been improved
+## What could have been improved
 
 For each point above
 
@@ -174,7 +174,7 @@ For each point above
 * Trade some development time to improve performance
 * Remove the releasing interruption feature
 
-### Things that were cut
+## Things that were cut
 
 We had a door prop with animation that we decided not to use because it was added on the latest stages, had unresolved issues (how the door animation should react if there's something on the way), and because of the risks of interfering with the AI.
 
