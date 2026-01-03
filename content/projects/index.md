@@ -232,5 +232,3 @@ My first finished game. Developed as part of a university project called “Game
 In this game, you have to run away from aggressive squares, firing them with a semi-automatic gun and planting bombs. The hero has a stock of magazines for his gun with 30 rounds of ammunition each, as well as a few bombs. You can force-reload, and all ammo in abandoned magazines will be lost. To gain better scores you need to survive as long as possible.
 
 If a square was not killed for a long time it starts to get more aggressive and moves faster. There are several levels of difficulty which affect the speed of the enemies and the damage caused by them.
-
----
