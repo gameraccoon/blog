@@ -65,7 +65,7 @@ At the start of the first day, we made the mirror and base enemies that moved to
 
 The interesting part was to make objects to be visualized differently in the world and in the mirror. To achieve that, each frame we saved the position of the player camera, in the object materials we added calls to a special material function that compared the saved camera position with the camera position that this object is being rendered from. If they match, it means we're rendering from the player's perspective, otherwise, it's the mirror reflection perspective. We used this info to set different material parameters for each case.
 
-![](VirtualMirrorCamera_inverted.png)
+{{< blog_image path=VirtualMirrorCamera_inverted.png >}}
 
 ### First days results
 
