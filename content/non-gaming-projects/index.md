@@ -12,7 +12,7 @@ Among games I like to develop some niche tools and small services in my free tim
 
 ## Apps/Tools
 
-[scripter](https://github.com/gameraccoon/scripter) - a simple tool aimed towards developers who make scripts to automate daily routines (e.g. build scripts, local deployment, running tests, and etc.). The tool allows to have one front-end for running those scripts and chaining them together, showing progress, execution time, making presets, and more.
+[scripter](https://github.com/gameraccoon/scripter) - a simple tool aimed towards developers who make scripts to automate daily routines (e.g. build scripts, local deployment, running tests, and etc.). The tool allows having one front-end for running those scripts and chaining them together, showing progress and execution time, storing logs, making presets, and more.
 
 Written in Rust.
 
@@ -24,7 +24,7 @@ Written in Rust and Kotlin.
 
 ## Web/Telegram
 
-[1ts.dev](https://1ts.dev) - a tiny service for sending self-destructing messages. Usefult for sharing one-time secrets.
+[1ts.dev](https://1ts.dev) - a tiny service for sending self-destructing messages. Useful for sharing one-time secrets when no end-to-end encrypted second messaging channel is available.
 
 Written in Go.
 

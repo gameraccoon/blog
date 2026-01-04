@@ -9,13 +9,13 @@ weight = 20
 # Projects
 
 Filters:  
-{{< filter_button badge="-full--time_job-green" disabled="-full--time_job-gray" >}} {{< filter_button badge="-game_jam-red" disabled="-game_jam-gray" >}} {{< filter_button badge="-hobby_project-lightgray" disabled="-hobby_project-gray" >}} {{< filter_button badge="-indie-blue" disabled="-indie-gray" >}}
+{{< filter_button badge="-full--time_job-brightgreen" disabled="-full--time_job-gray" >}} {{< filter_button badge="-game_jam-red" disabled="-game_jam-gray" >}} {{< filter_button badge="-hobby_project-lightgray" disabled="-hobby_project-gray" >}} {{< filter_button badge="-indie-blue" disabled="-indie-gray" >}}
 
-{{< project_block_start name="ARC Raiders" preview_image=arc-raiders-key-art.jpg years="(2024-now)" badge="-full--time_job-green" >}}
+{{< project_block_start name="ARC Raiders" preview_image=arc-raiders-key-art.jpg years="(2024-now)" badge="-full--time_job-brightgreen" >}}
 
 ARC Raiders is a multiplayer extraction adventure, set in a lethal future earth, ravaged by a mysterious mechanized threat known as ARC.
 
-Developed by Embark Studios, released in October 2025, winning "Best Multiplayer" game award two months later.
+Developed by Embark Studios, released in October 2025, winning "Best Multiplayer" game award two months later, and then Steam's "Most Innovative Gameplay" award the same year.
 
 I work on the project as a gameplay programmer (C++ and AngelScript).
 
@@ -24,7 +24,7 @@ I work on the project as a gameplay programmer (C++ and AngelScript).
 
 {{< project_block_end >}}
 
-{{< project_block_start name="Minecraft" preview_image="minecraft-front-image.jpg" years="(2020-2022, 2023-2024)" badge="-full--time_job-green" >}}
+{{< project_block_start name="Minecraft" preview_image="minecraft-front-image.jpg" years="(2020-2022, 2023-2024)" badge="-full--time_job-brightgreen" >}}
 
 Minecraft is a sandbox video game developed by Mojang Studios.
 
@@ -53,7 +53,7 @@ A small game developed for [Ludum Dare 52](https://ldjam.com/events/ludum-dare/5
 
 {{< project_block_end >}}
 
-{{< project_block_start name="Candy Crush Saga" preview_image="ccs-front-image.png" years="(2022)" badge="-full--time_job-green" >}}
+{{< project_block_start name="Candy Crush Saga" preview_image="ccs-front-image.png" years="(2022)" badge="-full--time_job-brightgreen" >}}
 
 Candy Crush Saga is a match-3 game developed by King.
 
@@ -73,7 +73,7 @@ A small game developed for [Ludum Dare 48](https://ldjam.com/events/ludum-dare/4
 
 {{< project_block_end >}}
 
-{{< project_block_start name="Tom Clancy's Ghost Recon Frontline" preview_image="frontline-front-image.jpg" years="(2020)" badge="-full--time_job-green" >}}
+{{< project_block_start name="Tom Clancy's Ghost Recon Frontline" preview_image="frontline-front-image.jpg" years="(2020)" badge="-full--time_job-brightgreen" >}}
 
 Tom Clancy’s Ghost Recon Frontline is a free-to-play, tactical-action, massive PVP shooter grounded in the Ghost Recon universe. It features an advanced class system and a large set of tactical support tools allowing for complete freedom in strategic gameplay.
 
@@ -85,7 +85,7 @@ I worked on the game as a C++ gameplay programmer, mostly working on some of the
 
 {{< project_block_end >}}
 
-{{< project_block_start name="Tom Clancy's Ghost Recon Breakpoint" preview_image="GRB-front-image.jpg" years="(2019-2020)" badge="-full--time_job-green" >}}
+{{< project_block_start name="Tom Clancy's Ghost Recon Breakpoint" preview_image="GRB-front-image.jpg" years="(2019-2020)" badge="-full--time_job-brightgreen" >}}
 
 A sequel to Tom Clancy's Ghost Recon Wildlands, an open world game taking place on a fictional island called Auroa. Unlike past games, there is no briefing of the mission and push the true survival experience to the test while overcoming the dangers on a remote island. Breakpoint was released on October 4th, 2019 for PC, PS4 and Xbox One.
 
@@ -125,7 +125,7 @@ A small puzzle game based on agar.io mechanics developed by a team of 6 people f
 
 {{< project_block_end >}}
 
-{{< project_block_start name="Life is Feudal (MMO, YO)" preview_image="life-is-feudal-cover-art.jpg" years="(2018-2019)" badge="-full--time_job-green" >}}
+{{< project_block_start name="Life is Feudal (MMO, YO)" preview_image="life-is-feudal-cover-art.jpg" years="(2018-2019)" badge="-full--time_job-brightgreen" >}}
 
 Life is Feudal: MMO is a multiplayer sandbox RPG with survival aspects. Described as a "real life Medieval simulator MMO", the game features a 21km x 21km world inspired by the cold regions of Northern Europe. Life is Feudal: MMO takes place in a realistic feudal setting where players work their way up from scavenging for materials and shelter to becoming a leader of a guild. The game features a crafting system, building features, and terraforming across the map - meaning players can build their own house and town anywhere in the world.
 
@@ -139,7 +139,7 @@ I worked on the game as a C++ programmer. I was working on various features: in-
 
 {{< project_block_end >}}
 
-{{< project_block_start name="Armored Warfare Assault" preview_image="ama-front-image.jpg" years="(2016-2018)" badge="-full--time_job-green" >}}
+{{< project_block_start name="Armored Warfare Assault" preview_image="ama-front-image.jpg" years="(2016-2018)" badge="-full--time_job-brightgreen" >}}
 
 A mobile tank PvP action shooter game developed by Pushkin Game Studio and released in February 2018.
 
@@ -166,11 +166,11 @@ A small 2D puzzle game based on the Minesweeper mechanics. The game was made ove
 
 {{< project_block_end >}}
 
-{{< project_block_start name="Gardenscapes" preview_image="gardenscapes-front-art.png" years="(2014-2016)" badge="-full--time_job-green" >}}
+{{< project_block_start name="Gardenscapes" preview_image="gardenscapes-front-art.png" years="(2014-2016)" badge="-full--time_job-brightgreen" >}}
 
-A free-to-play game released by Playrix in August 2016. It is available on iOS, Android, MacOS, and Windows. The game combines simulation elements and traditional match-3 mechanics. More than 7.5 million people play Gardenscapes every day. Facebook named it the game of the year in 2016.
+A free-to-play game developed by Playrix and released in August 2016. It is available on iOS, Android, MacOS, Windows, and Facebook. The game combines simulation elements and traditional match-3 mechanics.
 
-I worked on the game as a programmer (C++, Lua, python) from July 2014 to December 2016. Worked on many features and systems, developer tools, improvements for engine and infrastructure.
+I worked on the game as a programmer (C++, Lua, python) from July 2014 to December 2016. I worked on many features, systems, developer tools, improvements for engine and infrastructure.
 
 {{< project_link name="Website" url=https://playrix.com/games/gardenscapes link_text=playrix.com/games/gardenscapes >}}
 {{< project_link name="Google Play page" url=https://play.google.com/store/apps/details?id=com.playrix.gardenscapes link_text=play.google.com/store/apps/details?id=com.playrix.gardenscapes >}}
@@ -202,9 +202,9 @@ This prototype also branched into a project to play around with network programm
 
 {{< project_block_start name="Infinity World" preview_image="IW-cover-art.jpg" years="(2011-2013)" badge="-indie-blue" >}}
 
-A first-person single-player shooter with RPG mechanics. It was developed over almost two years in a small team of students and enthusiasts passionate about developing video games who I found either online or in my hometown. Unfortunately never finished (it was much bigger than we initially anticipated).
+A first-person single-player shooter with RPG mechanics. It was developed over almost two years in a small team of students and enthusiasts passionate about developing video games who I found either online or in my hometown, while studying in university myself. Unfortunately never finished (it was much bigger than we initially anticipated).
 
-The main feature of the game was procedurally generated buildings and a procedural stellar map.
+The main feature of the game was procedurally generated interiors and exteriors of buildings and a procedural stellar map.
 
 I worked on this game as a programmer (Unreal Script, C++) and a producer.
 
